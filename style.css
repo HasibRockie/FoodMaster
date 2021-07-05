@@ -1,0 +1,168 @@
+/*  */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    background-color: #eee;
+}
+
+#header,#another-one{
+    display: flex;
+    height: 400px;
+    padding: 3% 7%;
+    justify-content: center;
+}
+
+.heading{
+    margin-top: 50px;
+    font-size: 50px;
+    padding: 10px 10px;
+    font-weight: 700;
+}
+
+.description{
+    text-align: justify;
+    padding-right: 40px;
+    padding-bottom: 50px;
+}
+
+.button{
+    text-decoration: none;
+    padding: 10px 20px;
+    background:linear-gradient(30deg,coral,crimson,brown);
+    color: white;
+    border-radius: 15px;
+    font-weight: 800;
+    border: 1px solid rgb(128, 128, 128);
+    box-shadow: 2px 2px 2px black;
+}
+
+.highlight{
+    color: coral;
+}
+
+#about{
+    display: flex;
+    margin-top: 400px ;
+    background-image: url(gallery/frame.jpg);
+    background-position: left;
+    background-size: cover;
+    padding: 7% 12% 0;
+}
+
+#about h1{
+    font-size: 60px;
+    font-weight: 800;
+    color: rgb(112, 112, 112);
+}
+
+#about img{
+    width: 50%;
+    justify-content: baseline;
+}
+
+#third-div{
+    text-align: center;
+    margin-top:80px;
+
+}
+
+#recipe-heading{
+    font-size: 55px;
+}
+
+#recipe-para{
+    padding: 20px 25%;
+}
+
+#inner{
+    display: flex;
+    padding: 50px 20px 20px;
+    box-sizing: border-box;
+}
+
+.recipe-item{
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 20px;
+    border: 0.5px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px rgb(58, 58, 58);
+}
+
+.recipe-item img{
+    margin: 0 auto;
+    width: 440px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.recipe-item p{
+    padding: 5px 40px;
+    color: rgb(102, 102, 102);
+    text-align: left;
+}
+
+.recipe-title{
+    text-align: left;
+    padding-left: 35px;
+    color: rgb(129, 129, 129);
+}
+
+#another-one{
+    background-image: url(gallery/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 590px;
+    padding: 20px 40px;
+    margin-top: 100px;
+}
+
+#food-woman{
+    width: 95%;
+    justify-content: center;
+}
+
+#connection{
+    display: flex;
+    margin: 60px 45px;
+    border: 1px solid rgb(150, 150, 150);
+    box-shadow: 5px 5px 5px black;
+    border-radius: 20px;
+    justify-content: space-around;
+}
+
+.social{
+    padding: 30px 100px;
+    text-align: center;
+    align-self: center;
+}
+
+#footer{
+    margin-top: 100px;
+    width: 100%;
+    text-align: center;
+    background: repeating-linear-gradient(45deg, rgba(0, 0, 0, 0.034) 0px,rgba(0, 0, 0, 0.068) 5px , rgba(255, 255, 255, 0.151) 5px,rgba(255, 255, 255, 0.048) 10px );
+    color: brown;
+}
+
+#footer h1{
+    font-weight: 900;
+    letter-spacing: 8px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+#footer p{
+    margin: 0%;
+    padding: 0 10px 15px ;
+}
+
+.half-width{
+    width: 70%;
+}
+
+img{
+    width: 90%;
+}
